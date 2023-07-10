@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="game">
+        <h1>Tic Tac Toe</h1>
+        <table>
+            <tr>
+                <td>
+                    <button id="1" onclick="pressBtn('1')"></button>
+                </td>
+                <td>
+                    <button id="2" onclick="pressBtn('2')"></button>
+                </td>
+                <td>
+                    <button id="3" onclick="pressBtn('3')"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="4" onclick="pressBtn('4')"></button>
+                </td>
+                <td>
+                    <button id="5" onclick="pressBtn('5')"></button>
+                </td>
+                <td>
+                    <button id="6" onclick="pressBtn('6')"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="7" onclick="pressBtn('7')"></button>
+                </td>
+                <td>
+                    <button id="8" onclick="pressBtn('8')"></button>
+                </td>
+                <td>
+                    <button id="9" onclick="pressBtn('9')"></button>
+                </td>
+            </tr>
+        </table>
+        <p id="RESULT"> RESULT </p>
+        <button class="reset" onclick="reset()"> Reset</button>
+    </div>
+</body>
+<script src="./app.js" defer></script>
+
+</html>
